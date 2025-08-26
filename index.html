@@ -1,54 +1,101 @@
 <!DOCTYPE html>
- <html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Minha Página HTML</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
- <body>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CineWorld</title>
+  <link rel="icon" type="image/png" href="https://w7.pngwing.com/pngs/327/703/png-transparent-cinema-film-moveis-logo-film-art-film.png">
+  
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
     
-    <header>
-        <h1>Séries</h1>
-        <p>Bem-vindo à minha página!</p>
-    </header>
 
-    <main>
-        <section>
-            <h2>Sobre Mim</h2>
-            <p>Meu nome é <b>Julia</b> e estou aprendendo <i>HTML</i>.</p>
+    <nav class="menu">
+        <h1>🎬 Cinemax</h1>
+    <p>Bem-vindo ao Cinemax, onde cada cena se transforma em emoção e cada história ganha vida diante dos seus olhos.</p>
+      <ul>
+        <li><a href="#filmes">Filmes</a></li>
+        <li><a href="#lançamentos">Lançamentos</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+      </ul>
+    </nav>
+  </header>
 
-            <h2>Contato</h2>
-            <a href="https://www.meusite.com" target="_blank">Visite meu site</a>
+  <section id="filmes" class="container">
+    
+    <h2>Em Exibição</h2>
+    <div class="filmes">
+      <div class="card">
+        <img src="https://m.media-amazon.com/images/M/MV5BNDlhMmIzMzktZTExZi00MzFiLWJkNDUtYzc2ZmViMGI5M2E5XkEyXkFqcGc@._V1_.jpg" alt="Filme 1">
+        <h3>Deu a Louca na Chapeuzinho</h3>
+      </div>
+      <div class="card">
+        <img src="https://br.web.img3.acsta.net/pictures/16/06/17/21/32/488673.jpg" alt="Filme 2">
+        <h3>mortadelo e salaminho: missão inacreditável</h3>
+      </div>
+      <div class="card">
+        <img src="https://br.web.img3.acsta.net/pictures/17/04/25/15/04/460419.jpg" alt="Filme 3">
+        <h3>As Aventuras de Ozzy</h3>
+      </div>
+    </div>
+  </section>
+  <section id="Lançamentos" class="container">
+    
+    <h2>Filmes em Destaque</h2>
+    <div class="Lançamentos">
+      <div class="card">
+        <img src="https://br.web.img2.acsta.net/pictures/17/03/14/20/37/126690.jpg" alt="Filme 1">
+        <h3>Meu Malvado Favorito 3</h3>
+      </div>
+      <div class="card">
+        <img src="https://br.web.img3.acsta.net/pictures/18/04/05/18/50/2899336.jpg" alt="Filme 2">
+        <h3>Hotel Transilvânia 3: Férias Monstruosas</h3>
+      </div>
+      <div class="card">
+        <img src="https://br.web.img2.acsta.net/medias/nmedia/18/90/87/54/20117157.jpg" alt="Filme 3">
+        <h3>Os Sem-Floresta</h3>
+      </div>
+    </div>
+  </section>
 
-            <img src="https://fastcompanybrasil.com/wp-content/uploads/2024/01/aviao-eletrico.jpg" alt="Imagem de exemplo" />
-        </section>
 
-        <section>
-            <div>
-                <h3>Hobbies</h3>
-                <ul>
-                    <li>Ler livros</li>
-                    <li>Assistir filmes</li>
-                    <li>Praticar esportes</li>
-                </ul>
-            </div>
-        </section>
+  <section id="sobre" class="container">
+    <h1>Sobre o Cinema</h1>
+    <p>No Cinemax, cada visita é uma experiência única. Aqui, você não apenas assiste a filmes, mas mergulha em histórias que emocionam, inspiram e transformam. Nossas salas são cuidadosamente projetadas para oferecer conforto, qualidade de som e imagem impecáveis, garantindo que cada detalhe da narrativa seja vivido intensamente.
 
-        <section>
-            <div>
-                <h3>Lugares para Visitar</h3>
-                <ol>
-                    <li>Paris</li>
-                    <li>Tóquio</li>
-                    <li>Nova York</li>
-                </ol>
-            </div>
-        </section>
-    </main>
+Seja para uma sessão em família, um encontro com amigos ou um momento especial a dois, o Cinemax está preparado para tornar cada instante inesquecível. Convidamos você a descobrir o prazer de assistir a grandes produções em um ambiente acolhedor, seguro e pensado para você.</p>
 
-    <footer>
-        <p class="paragrafo-footer">&copy; 2021 Meu Site. Todos os direitos reservados.</p>
-    </footer>
-  </body>
+<p>Cinemax: mais que cinema, uma experiência que você sente, compartilha e jamais esquece.</p>
+
+    <h2>Principais Gêneros</h2>
+    <table>
+      <tr>
+        <th>Gênero</th>
+        <th>Exemplo de Filme</th>
+      </tr>
+      <tr>
+        <td>Ação</td>
+        <td>Velozes e Furiosos</td>
+      </tr>
+      <tr>
+        <td>Comédia</td>
+        <td>Se Beber, Não Case</td>
+      </tr>
+      <tr>
+        <td>Drama</td>
+        <td>À Procura da Felicidade</td>
+      </tr>
+      <tr>
+        <td>Ficção Científica</td>
+        <td>Interestelar</td>
+      </tr>
+    </table>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 CineWorld - O mundo do cinema em um só lugar</p>
+  </footer>
+</body>
 </html>
