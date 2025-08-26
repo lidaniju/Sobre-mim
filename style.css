@@ -1,4 +1,9 @@
 @import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
       font-family: Roboto, sans-serif;
       margin: 0;
@@ -17,7 +22,6 @@ body {
     .menu {
       background-color: #b71c1c;
       padding: 10px;
-      position: sticky;
       top: 0;
     }
 
@@ -45,7 +49,6 @@ body {
       color: #ffd700; 
     }
 
-    /* Conteúdo */
     h1, h2 {
       color: #ffd700;
       font-family: 'Cinzel', serif;
@@ -62,7 +65,7 @@ body {
       display: flex;
       gap: 20px;
       justify-content: space-around;
-      flex-wrap: wrap;
+      
     }
 
     .card {
@@ -76,7 +79,7 @@ body {
       display: flex;
       gap: 20px;
       justify-content: space-around;
-      flex-wrap: wrap;
+      
     }
 
     table {
@@ -101,7 +104,7 @@ body {
 
     section {
       padding: 50px 0;
-      border-bottom: 2px solid #222;
+      
     }
 
     footer {
