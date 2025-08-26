@@ -67,7 +67,11 @@ body {
       justify-content: space-around;
       
     }
-
+    .sobre{
+      display: flex;
+      gap: 20px;
+      justify-content: space-around;
+    }
     .card {
       background: #222;
       padding: 15px;
